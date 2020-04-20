@@ -1,0 +1,249 @@
+footer{
+    background-color: gray;
+    text-align: center;
+    margin-top: 20px;
+    padding: 20px;
+}
+
+a.link{
+    color: blue;
+    background-color: transparent;
+    text-decoration: none;
+}
+footer h5{
+    color: black;
+    font-family: 'PT Sans', sans-serif;
+}
+
+*{
+    margin: 0px;
+    padding: 0px;
+    max-width: 100%;
+    overflow-x: hidden;
+    scroll-behavior: smooth;
+}
+
+body{
+    font-family: 'PT sans'sans-serif;
+    color: rgb(36, 35, 33);
+    background-image: url("confetti.jpg");
+}
+
+header{
+    height: 100vh;
+    width: 100vw;
+}
+nav{
+    
+    width: 90%;
+    margin: 10px auto;
+    text-align: left;
+}
+nav ul li{
+    display: inline-block;
+
+}
+a{
+    text-decoration: none;
+    
+}
+a:hover{
+    text-decoration: underline;
+}
+nav ul li a{
+    text-decoration: none;
+    color: rgb(37, 36, 33);
+    font-size: 20px;
+    margin: 0 10px;
+    letter-spacing: 1px;
+}
+nav ul li a:hover{
+    text-decoration: underline;
+
+}
+.strapline-container{
+    
+    width: 90%;
+    height: 80%;
+    margin: auto auto;
+    text-align: center;
+    background-image: url("ECX\ LOGO.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    
+}
+
+.main-strapline{
+    color: rgb(59, 57, 52);
+    font-size: 120px;
+    text-transform: uppercase;
+    margin: 50px 0px;
+    font-family: 'PT Sans', sans-serif;
+
+}
+.second-strapline{
+    color:#20201c;
+    font-size: 35px;
+    font-style: italic;
+}
+
+.section-title{
+    text-align: center;
+    font-family: 'PT Sans', sans-serif;
+    color: rgb(27, 25, 20);
+    text-transform: uppercase;
+    font-size: 240%;
+    margin-bottom: 25px;
+
+}
+
+.about-section{
+    width: 100vw; 
+}
+
+.about-container{
+    
+    width: 85%;
+    margin: 0px auto;
+    display: flex;
+    flex-direction: row;
+}
+
+.top-row, .bottom-row{
+    display: flex;
+    flex-direction: row;
+}
+.donut-section{
+    width: 100vw;
+}
+.image-container{
+    width: 100%;
+    
+}
+.row-one, .row-two, .row-three{
+   
+    width: 90%;
+    margin: 10px auto;
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    
+}
+.grid-item{
+    
+    width: 30%;
+    height: 310px;
+    border-radius: 15px;
+    margin: 15px;
+}
+#donut-one{
+    background-image: url("day01.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+#donut-two{
+    background-image: url("day03.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+#donut-three{
+    background-image: url("day\ 1.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+#donut-four{
+    background-image: url("day\ 4.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+#donut-five{
+    background-image: url("day\ 0.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+#donut-six{
+    background-image: url("menu.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.stores-section{
+    width: 100vw;
+}
+.stores-container{
+    
+    width: 90%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+
+}
+.store-div{
+   
+    width: 30%;
+    height: 240px;
+    margin: 20px;
+    text-align: center;
+
+}
+h4{
+    font-size: 150%;
+}
+
+p{
+    font-family: "PT Sans",sans-serif;
+    font-size: medium;
+    font-weight: normal;
+    color: #000;
+}
+.social-media{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    
+    margin: 0 auto;
+}
+.social-media-icon{
+    margin: 0 7.5px;
+
+}
+
+
+@media only screen and (max-width:840px){
+    .stores-container,.about-container,.row-one,.row-two,.row-three,.top-row,.bottom-row{
+        flex-direction: column;
+        align-items: center;
+        
+    }
+    
+    .store-div,.grid-item,.grid-image-one,.grid-image-two,.grid-image-three,.grid-image-four,.left-box,.right-box{
+        width: 100%;
+    }
+
+    .main-strapline{
+        font-size: 50px;
+    }
+    .second-strapline{
+        font-size: 20px;
+
+    }
+
+}
+@media only screen and (max-width:400px){
+    .second-strapline{
+        font-size: 20px;
+
+    }
+    
+    .main-strapline{
+        font-size: 30px;
+}
+}
